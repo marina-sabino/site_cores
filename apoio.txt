@@ -1,0 +1,27 @@
+#listamenu li{
+	 list-style-type:none; /*tirando o marcador da lista*/
+	 display:block; /*definindo a lista como um bloco*/
+	 padding:4px; /*espacamento entre os blocos*/
+	 margin-bottom:15px;/*separando os blocos um do outro */
+	 text-align:center; /*definindo o bloco com  texto centralizado */
+	 font-weight:bold; /*definindo o texto em negrito*/
+	 border:1px solid #666; /*definindo tamanho, tipo e cor da borda */
+	 background:#F00; /*definindo a cor do bloco */
+	 font-size:16px; /*definindo o tamanho da fonte */
+	 width:115px;/*definindo a largura do bloco*/
+	 color:#FFF; /*definindo a cor da fonte */
+	font-family:Verdana, Geneva, sans-serif; /*definindo a familia de fontes */
+ 
+ }
+ #listamenu li a{
+	 text-decoration:none; /*tirando a sublinhado do link */
+	 color:#FFF;
+ }
+ 
+ #listamenu li a:hover{
+	 color:#FF0; /*definindo a cor da fonte */
+	 display:block; /*definindo a lista como bloco */
+	 background:#666; /*definindo a cor do bloco */
+	 font-style:italic; /*definindo o texto italico */
+	 
+}
